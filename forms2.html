@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d1{
+            display: inline-flex;
+            width: 100%;
+            padding: 0;
+            border: black solid 1px;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        #f1{
+            width: 8%;
+            padding: 20px;
+            border-right: black solid 1px;
+        }
+        #f2{
+            width: 90%;
+            padding: 20px;
+        }
+        fieldset{
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+   
+   <form action="" method="get">
+
+    <div id="d1">
+    <div id="f1">LOGO</div> <div id="f2">DADOS DA EMPRESA</div>
+    </div>
+    <fieldset> FICHA DE CADASTRO DE CLIENTES </fieldset>
+    <fieldset>
+        <!--dados pessoais-->
+        <label for="nome">NOME:</label><br>
+        <input type="text" name="nome" id="nome" size="100">
+        <br><br>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" pattern="[0-9]{11}">
+
+        <label for="rg">RG:</label>
+        <input type="text" id="rg" name="rg">
+
+        <label for="data">DATA DE NASC.</label>
+        <input type="date" name="data" id="data">
+        <br><br>
+
+        <!--Local-->
+        <label for="endereco">ENDEREÇO:</label><br>
+        <input type="text" name="endereco" id="endereco" maxlength="5" size="100">
+        <br><br>
+
+         <label for="cidade">CIDADE:</label>
+         <input type="text" name="cidade" id="cidade" maxlength="5" size="40">
+
+        <label for="">ESTADO:</label>
+        <select name="estado" id="estado">
+            <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AM">AM</option>
+                <option value="AP">AP</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MG">MG</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="PR">PR</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="RS">RS</option>
+                <option value="SC">SC</option>
+                <option value="SE">SE</option>
+                <option value="SP">SP</option>
+                <option value="TO">TO</option>
+        </select>
+        <br><br>
+
+        <!--Contato-->
+        <label for="tel">TELEFONE:</label>
+        <input type="tel" name="tel" id="tel" placeholder="digite o telefone"> 
+        <label for="cel">CELULAR:</label>
+        <input type="tel" name="cel" id="cel" placeholder="digite o telefone"> 
+        <label for="email">E-MAIL</label>
+        <input type="email" name="email" id="email" size="40">
+    </fieldset>
+    <button type="submit">Enviar</button>
+   </form>
+
+</body>
+</html>
