@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header{
+    width: 80%;
+    height: 100px;
+    background-color: aqua;
+    align-self: flex-start;
+    margin: 20px;
+}
+aside{
+    width: 25%;
+    height: 500px;
+    background-color: rebeccapurple;
+    align-self: center;
+    margin-right: 5%;
+}
+article{
+    width: 50%;
+    height: 500px;
+    background-color: red;
+    align-self: center;
+    display:flex;
+    justify-content:space-around;
+    align-items: flex-end;
+}
+picture{
+    width: 25%;
+    height: 40%;
+    background-color: palegoldenrod;
+    margin-bottom: 10px;
+}
+footer{
+    width: 80%;
+    height: 100px;
+    background-color: aqua;
+    align-self: end;
+    margin: 20px;
+}
