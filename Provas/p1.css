@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 90%;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-start;
+}
+
+header div{
+    align-self: center;
+    justify-content: center;
+    display: flex;
+}
+
+.d{
+    width: 32%;
+    height: 70%;
+    background-color: red;
+}
+.v{
+    width: 48%;
+    height: 80%;
+    background-color: navajowhite;
+    border: 2px solid salmon;
+}
+
+/*main*/
+.m{
+    margin: 10px 0;
+    width: 45%;
+    height: 500px;
+    align-self: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: end;
+    justify-content: space-between ;
+}
+
+#i{
+    background-color: aquamarine;
+}
+
+.l{
+    background-color: blue;
+    width: 99%;
+    height: 49%;
+}
+
+
+footer{
+    width: 90%;
+    height: 100px;
+    background-color: aqua;
+    align-self: end;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div{
+    align-self: center;
+    height: 85px;
+    background-color: red;
+}
+
+.c{
+    width: 32%;
+}
+
+.n{
+    width: 16%;
+}
